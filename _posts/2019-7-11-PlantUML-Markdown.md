@@ -3,8 +3,6 @@ layout: post
 title: PlantUML and Markdown Integration
 ---
 
-# How to use PlantUML with Markdown
-
 [PlantUML](http://plantuml.com/) is a really awesome way to create diagrams by writing code instead of drawing and dragging visual elements. Markdown is a really nice documentation tool.
 
 Here's how I combine the two, to create docs with embedded diagrams.
@@ -60,6 +58,3 @@ For every PlantUML block in the file, one svg diagram is generated. When the mar
 If you host the files in GitHub (or other services that convert md to html on the fly), the last step is uploading or pushing the files. Make sure to include everything: the markdown and the generated diagrams.
 
 Otherwise, use your favorite tool for converting markdown to html - a markdown editor or a command line tool.
-
-
-
