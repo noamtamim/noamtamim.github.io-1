@@ -28,6 +28,10 @@ Finally, to actually show the diagram in the document, add an image in markdown:
 	
 	Regular **Markdown** here.
 	
+	## Diagrams
+	
+	The following diagram shows the beginning of a conversation between *Alice* and *Bob*:
+	
 	<div hidden>
 	```
 	@startuml firstDiagram
@@ -52,6 +56,8 @@ On the command line:
 Where FILENAME is the name of the markdown file.
 
 For every PlantUML block in the file, one svg diagram is generated. When the markdown to html converter is running, the html will contain image links to the generated images.
+
+If for some reason you want to use PNG files for the diagrams and not SVG, use `![](firstDiagram.png)` in the image reference and remove the `-tsvg` in the command line. PNG files are compatible in more places, but they don't look good when zooming in and on high resolution displays.
 
 ## Step 3: Convert locally to HTML or upload to GitHub
 
