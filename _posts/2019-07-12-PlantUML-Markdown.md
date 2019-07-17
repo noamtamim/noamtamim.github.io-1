@@ -69,6 +69,7 @@ Otherwise, use your favorite tool for converting markdown to html - a markdown e
 
 If you copy the above markdown code into a file and run plantuml as instructed, the result will be the following:
 
-![screenshot]({{ site.baseurl }}/images/puml-markdown-screenshot.png)
+
+> ![screenshot]({{ site.baseurl }}/images/puml-markdown-screenshot.png)
 
 
