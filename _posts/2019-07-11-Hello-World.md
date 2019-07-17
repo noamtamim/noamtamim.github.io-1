@@ -3,4 +3,6 @@ layout: post
 title: Hello, World!
 ---
 
-This is my blog.
+```swift
+print("This is my blog.")
+```
