@@ -64,3 +64,11 @@ If for some reason you want to use PNG files for the diagrams and not SVG, use `
 If you host the files in GitHub (or other services that convert md to html on the fly), the last step is uploading or pushing the files. Make sure to include everything: the markdown and the generated diagrams.
 
 Otherwise, use your favorite tool for converting markdown to html - a markdown editor or a command line tool.
+
+## Output
+
+If you copy the above markdown code into a file and run plantuml as instructed, the result will be the following:
+
+![screenshot](images/puml-markdown-screenshot.png)
+
+
